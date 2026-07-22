@@ -160,7 +160,7 @@ export abstract class MapUtil {
             directorOrSecretaryOptions.push("Nationality");
         }
         if (directorOrSecretaryDetails.includeCountryOfResidence) {
-            directorOrSecretaryOptions.push("Country of residence");
+            directorOrSecretaryOptions.push("Place of residence");
         }
         if (directorOrSecretaryOptions.length > 0) {
             directorOrSecretaryOptions.unshift("Including " + officer + "':", "");
@@ -196,7 +196,7 @@ export abstract class MapUtil {
         }
 
         if (memberOptions.includeCountryOfResidence) {
-            membersMappings.push("Country of residence");
+            membersMappings.push("Place of residence");
         }
 
         if (memberOptions.includeDobType === "partial" ||

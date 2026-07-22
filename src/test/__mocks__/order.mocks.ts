@@ -1168,7 +1168,7 @@ export const mockAdministratedLLPCertificateItemView: GovUkOrderItemSummaryView 
                 },
                 value: {
                     classes: "govuk-!-width-two-thirds",
-                    html: `Including designated members&#39;:<br><br>Correspondence address<br>Appointment date<br>Country of residence<br>Date of birth (month and year)<br>`
+                    html: `Including designated members&#39;:<br><br>Correspondence address<br>Appointment date<br>Place of residence<br>Date of birth (month and year)<br>`
                 }
             },
             {
@@ -1178,7 +1178,7 @@ export const mockAdministratedLLPCertificateItemView: GovUkOrderItemSummaryView 
                 },
                 value: {
                     classes: "govuk-!-width-two-thirds",
-                    html: `Including members&#39;:<br><br>Correspondence address<br>Appointment date<br>Country of residence<br>Date of birth (month and year)<br>`
+                    html: `Including members&#39;:<br><br>Correspondence address<br>Appointment date<br>Place of residence<br>Date of birth (month and year)<br>`
                 }
             },
             {

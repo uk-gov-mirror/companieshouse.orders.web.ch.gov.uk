@@ -173,13 +173,13 @@ describe("MapUtil unit tests", () => {
             expect(result).to.equal(MapUtil.mapToHtml(["Including directors':", "", "Appointment date"]));
         });
 
-        it("directorDetails with basic information plus country of residence", () => {
+        it("directorDetails with basic information plus place of residence", () => {
             const directorDetails = {
                 includeBasicInformation: true,
                 includeCountryOfResidence: true
             };
             const result = MapUtil.determineDirectorOrSecretaryOptionsText(directorDetails, "directors");
-            expect(result).to.equal(MapUtil.mapToHtml(["Including directors':", "", "Country of residence"]));
+            expect(result).to.equal(MapUtil.mapToHtml(["Including directors':", "", "Place of residence"]));
         });
 
         it("directorDetails with basic information plus nationality", () => {
@@ -282,7 +282,7 @@ describe("MapUtil unit tests", () => {
             const result = MapUtil.mapMembersOptions("Including members':", itemOptions.memberDetails);
 
             // Then
-            expect(result).to.equal(MapUtil.mapToHtml(["Including members':", "", "Correspondence address", "Appointment date", "Country of residence", "Date of birth (month and year)"]));
+            expect(result).to.equal(MapUtil.mapToHtml(["Including members':", "", "Correspondence address", "Appointment date", "Place of residence", "Date of birth (month and year)"]));
         });
     });
 
