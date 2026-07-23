@@ -304,7 +304,7 @@ describe("OrderItemSummaryController", () => {
             expect($($("#item-details-list .govuk-summary-list__value")[4]).text()).to.contain("Date of birth (month and year)");
             expect($($("#item-details-list .govuk-summary-list__value")[4]).text()).to.contain("Appointment date");
             expect($($("#item-details-list .govuk-summary-list__value")[4]).text()).to.contain("Nationality");
-            expect($($("#item-details-list .govuk-summary-list__value")[4]).text()).to.contain("Country of residence");
+            expect($($("#item-details-list .govuk-summary-list__value")[4]).text()).to.contain("Place of residence");
             expect($($("#item-details-list .govuk-summary-list__key")[5]).text()).to.contain("The names of all current secretaries");
             expect($($("#item-details-list .govuk-summary-list__value")[5]).text()).to.contain("Including secretaries':");
             expect($($("#item-details-list .govuk-summary-list__value")[5]).text()).to.contain("Correspondence address");
@@ -554,13 +554,13 @@ describe("OrderItemSummaryController", () => {
             expect($($("#item-details-list .govuk-summary-list__value")[4]).text()).to.contain("Including designated members':");
             expect($($("#item-details-list .govuk-summary-list__value")[4]).text()).to.contain("Correspondence address");
             expect($($("#item-details-list .govuk-summary-list__value")[4]).text()).to.contain("Appointment date");
-            expect($($("#item-details-list .govuk-summary-list__value")[4]).text()).to.contain("Country of residence");
+            expect($($("#item-details-list .govuk-summary-list__value")[4]).text()).to.contain("Place of residence");
             expect($($("#item-details-list .govuk-summary-list__value")[4]).text()).to.contain("Date of birth (month and year)");
             expect($($("#item-details-list .govuk-summary-list__key")[5]).text()).to.contain("The names of all current members");
             expect($($("#item-details-list .govuk-summary-list__value")[5]).text()).to.contain("Including members':");
             expect($($("#item-details-list .govuk-summary-list__value")[5]).text()).to.contain("Correspondence address");
             expect($($("#item-details-list .govuk-summary-list__value")[5]).text()).to.contain("Appointment date");
-            expect($($("#item-details-list .govuk-summary-list__value")[5]).text()).to.contain("Country of residence");
+            expect($($("#item-details-list .govuk-summary-list__value")[5]).text()).to.contain("Place of residence");
             expect($($("#item-details-list .govuk-summary-list__value")[5]).text()).to.contain("Date of birth (month and year)");
             expect($($("#item-details-list .govuk-summary-list__key")[6]).text()).to.contain("Liquidators' details");
             expect($($("#item-details-list .govuk-summary-list__value")[6]).text()).to.contain("Yes");
